@@ -1,0 +1,12 @@
+\section{Further Empirical Directions}
+\label{sec:tests}
+
+The measurements in Section~\ref{sec:empirical} confirm the suppression asymmetry, demonstrate the suppression gradient, establish cross-provider RLHF variation, and provide an initial base-vs-instruct comparison. Two experiments would further extend these findings:
+
+\begin{enumerate}[leftmargin=*]
+
+\item \textbf{Base versus instruct in amplifying families.} Our base-vs-instruct comparison (Table~\ref{tab:base}) uses the Llama family, where RLHF suppresses em dashes. The more informative comparison would use a model family where RLHF amplifies them---isolating the amplification step directly. This requires access to base weights from OpenAI, Anthropic, or DeepSeek, which are not currently public.
+
+\item \textbf{Training corpora analysis.} Quantify the frequency with which dashes (\texttt{---}, \texttt{--}, em dash characters) appear at structural boundaries (section breaks, list transitions, heading-adjacent positions) versus inline positions in major training datasets. The genealogy predicts that structural-boundary dashes will dominate, establishing the statistical basis for the model's association between dashes and structural transitions.
+
+\end{enumerate}

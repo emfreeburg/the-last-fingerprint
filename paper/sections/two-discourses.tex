@@ -1,0 +1,12 @@
+\section{The Two Discourses}
+\label{sec:discourses}
+
+Two large, well-developed online conversations about the stylistic behavior of large language models have been running in parallel since the widespread deployment of instruction-tuned models in 2023. As far as we have been able to determine, these conversations have zero meaningful overlap.
+
+\textbf{Discourse A: ``AI Overuses Em Dashes.''} Across writing communities, literary forums, and social media, a robust conversation treats the em dash as a diagnostic marker of AI-generated text. The observation is consistent: certain models deploy the em dash at elevated frequencies, using it where a comma, period, or restructuring would be more natural. Representative framings---``dead giveaway,'' ``instant tell''---appear in thousands of threads on Reddit, Hacker News, and Twitter/X. Critically, this discourse offers no mechanistic account of \textit{why} the em dash specifically is overrepresented; the default assumption is an arbitrary training artifact or unexplained RLHF quirk.
+
+\textbf{Discourse B: ``AI Thinks in Markdown.''} In developer communities, prompt engineering forums, and model behavior analysis, a separate conversation observes that LLMs default to markdown-structured output: bullet points for casual questions, bold headings unsolicited, structure exceeding what was requested. This discourse is technically sophisticated but narrowly framed---it addresses formatting-level artifacts (headers, bullets, bold, code blocks) without extending to prose-level consequences. The observation stops at the formatting layer.
+
+\textbf{The Gap.} These discourses do not cite each other and do not appear in the same discussion threads. The em dash critics are unaware they are observing markdown leakage; the markdown-behavior analysts do not examine prose-level tics as consequences of the structural orientation they have identified at the formatting level.
+
+Filling this gap produces a unifying explanation: the formatting tics (excessive structure, uninvited headers) and the prose tics (em dash overuse, formulaic transitions, colon-before-list patterns) are the same structural orientation manifesting at different levels of compression. When a model is allowed to format freely, the structural impulse produces markdown. When constrained to prose, the impulse finds the thinnest point in the barrier between structure and punctuation---the em dash---and leaks through. The em dash is the formatting tic that survived the instruction to stop formatting.

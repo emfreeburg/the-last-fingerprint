@@ -1,0 +1,78 @@
+\documentclass[11pt]{article}
+
+% Encoding
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Layout and typography
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{microtype}
+
+% References and links
+\usepackage[colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{url}
+\usepackage[numbers]{natbib}
+
+% Tables
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% Figures
+\usepackage{graphicx}
+
+% Code and markdown examples
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Lists
+\usepackage{enumitem}
+
+% Math (standard inclusion)
+\usepackage{amsmath}
+
+% Configure listings for markdown examples
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!10},
+  xleftmargin=1em,
+  framexleftmargin=0.5em
+}
+
+% Title
+\title{\textbf{The Last Fingerprint: How Markdown Training Shapes LLM Prose}}
+
+\author{
+  E. M. Freeburg \\
+  Independent Researcher \\
+  \texttt{hqops@icloud.com}
+}
+
+\date{March 2026}
+
+\begin{document}
+
+\maketitle
+
+\input{sections/abstract}
+
+\input{sections/introduction}
+
+\input{sections/background}
+
+\input{sections/genealogy}
+
+\input{sections/two-discourses}
+
+\input{sections/empirical}
+
+\input{sections/discussion}
+
+\input{sections/conclusion}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,1218 @@
+[
+  {
+    "model_name": "Claude Sonnet 4",
+    "model_id": "claude-sonnet-4-20250514",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 10252,
+      "total_em_dashes": 85,
+      "em_dash_per_1000": 8.29,
+      "total_md_features": 63,
+      "md_features_per_1000": 6.15,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 971,
+          "em_dashes": 10,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 1026,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 1073,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 1058,
+          "em_dashes": 12,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 1007,
+          "em_dashes": 13,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 962,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 1,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 1018,
+          "em_dashes": 11,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 1061,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 1069,
+          "em_dashes": 12,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 1007,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        }
+      ]
+    },
+    "prose_constrained": {
+      "condition": "prose_constrained",
+      "total_words": 9898,
+      "total_em_dashes": 13,
+      "em_dash_per_1000": 1.31,
+      "total_md_features": 0,
+      "md_features_per_1000": 0.0,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 1031,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 988,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 954,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 959,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 981,
+          "em_dashes": 3,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 987,
+          "em_dashes": 1,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 1060,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 927,
+          "em_dashes": 3,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 1003,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 1008,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "Claude Haiku 3.5",
+    "model_id": "claude-haiku-4-5-20251001",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 10254,
+      "total_em_dashes": 77,
+      "em_dash_per_1000": 7.51,
+      "total_md_features": 55,
+      "md_features_per_1000": 5.36,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 1000,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 986,
+          "em_dashes": 8,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 1062,
+          "em_dashes": 5,
+          "markdown_features": {
+            "headers": 6,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 6
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 1000,
+          "em_dashes": 8,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 1026,
+          "em_dashes": 12,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 1000,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 1062,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 1087,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 1003,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 1028,
+          "em_dashes": 8,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        }
+      ]
+    },
+    "prose_constrained": {
+      "condition": "prose_constrained",
+      "total_words": 11164,
+      "total_em_dashes": 2,
+      "em_dash_per_1000": 0.18,
+      "total_md_features": 10,
+      "md_features_per_1000": 0.9,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 1235,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 1066,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 1163,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 1149,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 1095,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 1111,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 1126,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 1096,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 1036,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 1087,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "GPT-4o",
+    "model_id": "gpt-4o",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 8739,
+      "total_em_dashes": 36,
+      "em_dash_per_1000": 4.12,
+      "total_md_features": 47,
+      "md_features_per_1000": 5.38,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 869,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 9,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 9
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 799,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 849,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 6,
+            "bullets": 0,
+            "bold": 6,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 6,
+            "total_md_features": 18
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 853,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 838,
+          "em_dashes": 5,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 6,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 6
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 913,
+          "em_dashes": 8,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 908,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 886,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 6,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 6
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 916,
+          "em_dashes": 3,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 908,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        }
+      ]
+    },
+    "prose_constrained": {
+      "condition": "prose_constrained",
+      "total_words": 8940,
+      "total_em_dashes": 24,
+      "em_dash_per_1000": 2.68,
+      "total_md_features": 0,
+      "md_features_per_1000": 0.0,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 915,
+          "em_dashes": 1,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 882,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 924,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 843,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 926,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 872,
+          "em_dashes": 1,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 882,
+          "em_dashes": 3,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 873,
+          "em_dashes": 10,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 926,
+          "em_dashes": 1,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 897,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "GPT-4o Mini",
+    "model_id": "gpt-4o-mini",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 9618,
+      "total_em_dashes": 40,
+      "em_dash_per_1000": 4.16,
+      "total_md_features": 58,
+      "md_features_per_1000": 6.03,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 1031,
+          "em_dashes": 7,
+          "markdown_features": {
+            "headers": 8,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 8
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 934,
+          "em_dashes": 1,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 906,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 5,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 5
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 931,
+          "em_dashes": 5,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 992,
+          "em_dashes": 3,
+          "markdown_features": {
+            "headers": 9,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 9
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 932,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 1,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 962,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 958,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 1,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 1
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 999,
+          "em_dashes": 1,
+          "markdown_features": {
+            "headers": 7,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 7
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 973,
+          "em_dashes": 8,
+          "markdown_features": {
+            "headers": 6,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 6
+          }
+        }
+      ]
+    },
+    "prose_constrained": {
+      "condition": "prose_constrained",
+      "total_words": 9923,
+      "total_em_dashes": 42,
+      "em_dash_per_1000": 4.23,
+      "total_md_features": 0,
+      "md_features_per_1000": 0.0,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 1012,
+          "em_dashes": 6,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 999,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 1023,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 978,
+          "em_dashes": 9,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 992,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 910,
+          "em_dashes": 8,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 1035,
+          "em_dashes": 3,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 947,
+          "em_dashes": 5,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 1023,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 1004,
+          "em_dashes": 5,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "italic_md": 0,
+            "code_spans": 0,
+            "numbered_items": 0,
+            "total_md_features": 0
+          }
+        }
+      ]
+    }
+  }
+]

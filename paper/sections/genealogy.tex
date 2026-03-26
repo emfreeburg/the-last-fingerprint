@@ -1,0 +1,46 @@
+\section{The Em Dash Genealogy}
+\label{sec:genealogy}
+
+We propose a five-step explanatory account for why large language models produce em dashes in generated prose at rates that vary dramatically by provider and resist formatting suppression. This genealogy is the paper's central analytical contribution: it connects training data composition, structural internalization, the unique dual-register status of the em dash, and post-training amplification into a single coherent framework.
+
+\subsection{Training Data Saturation}
+
+The corpora used to train large language models are dominated by markdown-formatted text. GitHub---home to over 100 million developers~\cite{github2024octoverse}---stores virtually all project documentation, README files, issue discussions, and pull request descriptions in markdown. Stack Overflow renders answers in markdown. Reddit historically used markdown for post composition. Developer blogs, documentation sites, and technical writing ecosystems (Pandoc~\cite{pandoc2024}, R Markdown, Quarto) all produce and consume markdown natively.
+
+This is not a minor slice of the training distribution. The Pile~\cite{gao2020pile}, a widely used 800GB training dataset, draws heavily from GitHub repositories and Stack Exchange. RedPajama~\cite{together2023redpajama} and RefinedWeb~\cite{penedo2023refinedweb} similarly include large proportions of web-crawled text where markdown is the dominant formatting layer. The highest-quality, most heavily structured text on the open web---the text that contributes disproportionately to model capabilities---is overwhelmingly markdown or markdown-adjacent.
+
+\subsection{Structural Internalization}
+
+Models trained on this corpus do not merely learn markdown syntax as a formatting convention. Their behavior is consistent with internalizing the structural orientation that markdown encodes. In markdown-formatted text, dashes of various kinds---horizontal rules (\texttt{---}), list markers (\texttt{-}), YAML front matter delimiters, and inline separators---consistently signal \textit{structural boundaries}. A dash, in the training data, is where one unit of meaning ends and another begins. It is architecture, not punctuation.
+
+Behavioral evidence of this structural internalization is visible at every scale. Unconstrained model outputs default to hierarchical organization: headings appear without being requested, bullet points enumerate where prose would suffice, bold text highlights terms the model considers structurally salient. The default resolution of a model trained on markdown-saturated corpora is not prose---it is a structured document.
+
+\subsection{The Dash as Structural Joint in Prose}
+
+A clarification is necessary before proceeding. The em dash character (U+2014) is not itself a markdown syntax element. In CommonMark~\cite{commonmark2021} and GitHub Flavored Markdown~\cite{gfm2024}, the em dash has no syntactic role; the markdown dash-family elements are thematic breaks (\texttt{---}), list markers (\texttt{-}), and YAML delimiters. Our claim is therefore not that models produce em dashes because the character appears as a markdown element, but rather that the structural orientation models acquire from markdown-formatted training data---where dashes of all kinds consistently signal boundaries---surfaces in prose as elevated em dash frequency, because the em dash is the one member of the dash family that is simultaneously valid prose punctuation. It is the narrowest channel through which a markdown-trained structural impulse can leak into natural prose.
+
+When a model is constrained to produce natural prose rather than formatted output---through system prompts, fine-tuning, or explicit instructions---most markdown formatting is successfully suppressed. Headers do not appear in narrative paragraphs. Bullet points do not interrupt flowing text. Bold emphasis and code blocks are withheld.
+
+But the em dash survives. It survives because it occupies a unique position: it is simultaneously valid punctuation and a structural marker. In markdown, the dash is architecture. In prose, the dash is punctuation. The form is identical; the register is different. When a model receives the instruction ``write prose, not markdown,'' the suppression passes over the em dash because the em dash is \textit{already in the punctuation register}. It does not need to be stripped because it does not, on its surface, look like formatting.
+
+This is the central observation: \textbf{the em dash is the smallest possible unit of markdown thinking that survives compression into plain prose}. You can suppress headers, bullets, bold, and code blocks. But the dash slips through because the instruction to write prose rather than markdown does not catch a mark that is already prose-legal. The em dash is markdown's last fingerprint.
+
+\subsection{RLHF Amplification}
+
+The latent structural tendency described above is necessary but not sufficient to explain the magnitude of em dash overuse observed in deployed models. Reinforcement learning from human feedback (RLHF)~\cite{ouyang2022training, bai2022training, christiano2017deep} provides the amplification mechanism.
+
+Human evaluators in the RLHF pipeline---disproportionately technical workers, developers, and people comfortable with structured writing---tend to rate clear, well-organized prose more highly. Em-dash-heavy prose reads as precise, articulate, and structurally aware. The RLHF process selects for outputs that these evaluators prefer, systematically rewarding the markdown register.
+
+Supporting evidence for this kind of stylistic tuning exists. Sam Altman acknowledged publicly that em dash frequency in ChatGPT output had been adjusted in response to user preference~\cite{altman2024emdash}---confirming that fine-tuning procedures can and do target specific punctuation-level features, even if this does not speak directly to the markdown-training component of the genealogy.
+
+Further evidence comes from cross-provider comparison. Our measurements (Section~\ref{sec:empirical}) show that models trained on similar markdown-saturated corpora produce starkly different em dash rates depending on their RLHF procedure: OpenAI's GPT-4.1 produces 10.62 per 1,000 words, Anthropic's Claude Opus~4.6 produces 9.09, DeepSeek~V3 produces 6.95---while Meta's Llama models~\cite{touvron2023llama, touvron2023llama2} produce zero. A base-vs-instruct comparison of Llama~3.1~8B confirms that a small latent tendency exists in the base model (0.49 per 1,000 words) but is driven to zero by Meta's RLHF. The same base-level tendency can be amplified or suppressed depending on the fine-tuning procedure. RLHF is the variable that determines the outcome.
+
+\subsection{Complementarity, Not Competition}
+
+A natural counterargument is that RLHF alone suffices to explain em dash prevalence, rendering the markdown-training story redundant. On this account, human evaluators simply prefer em-dash-heavy prose, RLHF selects for that preference, and no deeper genealogy is required.
+
+We argue that the markdown-training and RLHF accounts are complementary rather than competing. They operate at different levels of the explanatory chain. The RLHF-alone account explains \textit{that} the em dash was selected. The markdown-training account explains \textit{why it was available for selection}---why, among all possible prose tics, the em dash specifically was the one that RLHF amplified.
+
+The answer is that models trained on markdown-saturated corpora arrive at the RLHF stage already predisposed to use dashes as structural joints. RLHF does not create the tendency from nothing; it amplifies a latent orientation that the training data installed. The five-step genealogy is not competing with RLHF---it is explaining what RLHF had to select.
+
+This complementarity is further supported by the base model evidence. If RLHF alone explained em dash use---without any prior structural orientation from training data---we would expect base models to show no predisposition toward em dashes or structural formatting. But the Llama~3.1~8B base model produces both em dashes (0.49/1K) and substantial markdown features (28 across 10 samples), confirming that the training data installs a structural orientation that exists before any fine-tuning is applied. What RLHF adds is the selection pressure that either amplifies this orientation (as in OpenAI and DeepSeek models) or suppresses it (as in Meta's Llama).

@@ -1,0 +1,21 @@
+{
+  "model": "GPT-5.4",
+  "unconstrained": {
+    "total_words": 11938,
+    "total_em_dashes": 9,
+    "em_dash_per_1000": 0.75,
+    "total_md": 0
+  },
+  "markdown_suppressed": {
+    "total_words": 13552,
+    "total_em_dashes": 2,
+    "em_dash_per_1000": 0.15,
+    "total_md": 0
+  },
+  "emdash_suppressed": {
+    "total_words": 13453,
+    "total_em_dashes": 0,
+    "em_dash_per_1000": 0.0,
+    "total_md": 0
+  }
+}

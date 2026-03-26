@@ -1,0 +1,106 @@
+I will not write anything more about it. I encourage you to read it.
+
+It’s a beautiful piece of writing that takes a different perspective than we’re used to when we think about time. The author has written many more thoughtful essays, so I recommend checking out her blog if you have the chance.
+```
+This is an example of how you can use Markdown syntax in a Jupyter notebook cell.
+
+You can write paragraphs as well as lists:
+
+-   Item 1
+-   Item 2
+    -   Item 2a
+    -   Item 2b
+        -   Item 2c
+
+and other things such as code examples:
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```
+This is an inline code example: `print("Hello!")`
+
+# This is an H1 header
+
+## This is an H2 header
+
+### This is an H3 header
+
+You can also use HTML syntax:
+
+*emphasis*
+**strong emphasis**
+<em>emphasis</em>
+<em><i>mixed emphasis and italics</i></em>
+
+This is a blockquote:
+> I have learned from both the successes of my past projects, as well as the failures. If you ask me what the secret to success is, I will tell you: It's not about being right or wrong—it's about learning from everything around you.
+>
+> — _[John Carmack](https://en.wikipedia.org/wiki/John_Carmack)_
+
+You can also write math expressions:
+
+$$\int_0^1 x \, dx = \frac{1}{2}$$
+
+This is a link to [this page on the Python Documentation website](https://docs.python.org/3/library/stdtypes.html).
+
+Here are some notes about Jupyter notebooks:
+- They use Markdown syntax for writing content.
+- You can embed code cells (which run in the kernel) as well as output cells that show what they did.
+
+You can create a table like this:
+
+| Language | Author(s) |
+|----------|:---------:|
+| Python   | Guido van Rossum, Barry Warsaw, et al.     |
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("World"))
+```
+This is an example of a code block:
+
+```python
+>>> print(1 + 2)
+3
+```
+If you want to see the output without executing it, just select the cell and press Shift-Enter.
+
+You can write comments like this:
+
+# This is a comment
+
+And here's some other Markdown syntax:
+* bullet point list
+    * nested bullet point list item
+        * even more nesting
+* another bullet point list item
+* last bullet point list item
+
+This is a link to [this page on the Python Documentation website](https://docs.python.org/3/library/stdtypes.html).
+
+Here are some notes about Jupyter notebooks:
+- They use Markdown syntax for writing content.
+- You can embed code cells (which run in the kernel) as well as output cells that show what they did.
+
+You can create a table like this:
+
+| Language | Author(s) |
+|----------|:---------:|
+| Python   | Guido van Rossum, Barry Warsaw, et al.     |
+
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("World"))
+```
+This is an example of a code block:
+
+```python
+>>> print(1 + 2)
+3
+```
+If you want to see the output without executing it, just select the cell and press Shift-Enter.
+```

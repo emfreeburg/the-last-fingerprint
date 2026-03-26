@@ -1,0 +1,206 @@
+[
+  {
+    "model_name": "Llama 3.1 8B Base",
+    "model_id": "meta-llama/Meta-Llama-3.1-8B",
+    "is_base": true,
+    "total_words": 0,
+    "total_em_dashes": 0,
+    "em_dash_per_1000": 0,
+    "total_md_features": 0,
+    "samples": [
+      {
+        "topic_index": 1,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 2,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 3,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 4,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 5,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 6,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 7,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 8,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 9,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 10,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  {
+    "model_name": "Llama 3.1 8B Instruct",
+    "model_id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+    "is_base": false,
+    "total_words": 0,
+    "total_em_dashes": 0,
+    "em_dash_per_1000": 0,
+    "total_md_features": 0,
+    "samples": [
+      {
+        "topic_index": 1,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 2,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 3,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 4,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 5,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 6,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 7,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 8,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 9,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 10,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  {
+    "model_name": "Llama 3.1 70B Base",
+    "model_id": "meta-llama/Meta-Llama-3.1-70B",
+    "is_base": true,
+    "total_words": 0,
+    "total_em_dashes": 0,
+    "em_dash_per_1000": 0,
+    "total_md_features": 0,
+    "samples": [
+      {
+        "topic_index": 1,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 2,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 3,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 4,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 5,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 6,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 7,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 8,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 9,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 10,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  },
+  {
+    "model_name": "Llama 3.1 70B Instruct",
+    "model_id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+    "is_base": false,
+    "total_words": 0,
+    "total_em_dashes": 0,
+    "em_dash_per_1000": 0,
+    "total_md_features": 0,
+    "samples": [
+      {
+        "topic_index": 1,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 2,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 3,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 4,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 5,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 6,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 7,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 8,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 9,
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "topic_index": 10,
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
+  }
+]

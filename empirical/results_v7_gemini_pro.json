@@ -1,0 +1,15 @@
+{
+  "model": "Gemini 2.5 Pro",
+  "unconstrained": {
+    "total_words": 3120,
+    "total_em_dashes": 11,
+    "em_dash_per_1000": 3.53,
+    "total_md": 9
+  },
+  "prose_constrained": {
+    "total_words": 3239,
+    "total_em_dashes": 0,
+    "em_dash_per_1000": 0.0,
+    "total_md": 0
+  }
+}

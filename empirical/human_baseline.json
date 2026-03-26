@@ -1,0 +1,78 @@
+{
+  "methodology": "Em dash frequency in human-authored published prose, measured as a baseline for comparison with LLM-generated text. Sources fetched via curl on 2026-03-26. Counted Unicode em dash (U+2014) and double hyphens (--/---) used as em dashes. Word counts via whitespace splitting of extracted body text. Site navigation, comments, headers/footers, and Project Gutenberg boilerplate were stripped before counting.",
+  "date_collected": "2026-03-26",
+  "notes": "Wide variance is expected: some writers (Gioia, Orwell, Spencer) use em dashes heavily as a stylistic choice, while others (Bacon, Dan Luu, PG) rarely use them. The weighted aggregate (by word count) may be skewed by longer texts.",
+  "essays": [
+    {
+      "source": "Paul Graham",
+      "title": "How to Do Great Work",
+      "genre": "essay (tech/self-help)",
+      "word_count": 11827,
+      "em_dashes": 23,
+      "per_1000": 1.94
+    },
+    {
+      "source": "Paul Graham",
+      "title": "Superlinear Returns",
+      "genre": "essay (tech/economic)",
+      "word_count": 4260,
+      "em_dashes": 6,
+      "per_1000": 1.41
+    },
+    {
+      "source": "George Orwell",
+      "title": "Politics and the English Language",
+      "genre": "literary essay (1946)",
+      "word_count": 5449,
+      "em_dashes": 33,
+      "per_1000": 6.06
+    },
+    {
+      "source": "Herbert Spencer",
+      "title": "The Philosophy of Style",
+      "genre": "literary criticism (1852)",
+      "word_count": 12260,
+      "em_dashes": 70,
+      "per_1000": 5.71
+    },
+    {
+      "source": "Ted Gioia (The Honest Broker)",
+      "title": "The State of the Culture, 2024",
+      "genre": "cultural criticism (2024)",
+      "word_count": 2161,
+      "em_dashes": 37,
+      "per_1000": 17.12
+    },
+    {
+      "source": "Dan Luu",
+      "title": "Sounds Easy",
+      "genre": "tech essay (blog)",
+      "word_count": 2104,
+      "em_dashes": 2,
+      "per_1000": 0.95
+    },
+    {
+      "source": "James Somers",
+      "title": "Speed Matters",
+      "genre": "essay (blog)",
+      "word_count": 1146,
+      "em_dashes": 8,
+      "per_1000": 6.98
+    },
+    {
+      "source": "Francis Bacon",
+      "title": "Essays (collected)",
+      "genre": "classic essays (1625)",
+      "word_count": 18025,
+      "em_dashes": 6,
+      "per_1000": 0.33
+    }
+  ],
+  "aggregate": {
+    "total_words": 57232,
+    "total_em_dashes": 185,
+    "per_1000": 3.23,
+    "mean_per_essay": 5.06,
+    "median_per_essay": 3.83
+  }
+}

@@ -1,0 +1,362 @@
+[
+  {
+    "model_name": "Gemini 2.5 Pro",
+    "model_id": "gemini-2.5-pro",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 0,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0,
+      "total_md_features": 0,
+      "md_per_1000": 0,
+      "samples": [
+        {
+          "topic_index": 1,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 2,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 3,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 4,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 5,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 6,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 7,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 8,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 9,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 10,
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    },
+    "prose_constrained": {
+      "condition": "prose_constrained",
+      "total_words": 0,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0,
+      "total_md_features": 0,
+      "md_per_1000": 0,
+      "samples": [
+        {
+          "topic_index": 1,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 2,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 3,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 4,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 5,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 6,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 7,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 8,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 9,
+          "error": "HTTP Error 429: Too Many Requests"
+        },
+        {
+          "topic_index": 10,
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    }
+  },
+  {
+    "model_name": "Gemini 2.5 Flash",
+    "model_id": "gemini-2.5-flash",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 4704,
+      "total_em_dashes": 6,
+      "em_dash_per_1000": 1.28,
+      "total_md_features": 5,
+      "md_per_1000": 1.06,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 466,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 494,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 337,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 321,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 1
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 366,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 1
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 922,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 1
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 488,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 1
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 416,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 1,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 1
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 487,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 10,
+          "word_count": 407,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        }
+      ]
+    },
+    "prose_constrained": {
+      "condition": "prose_constrained",
+      "total_words": 7443,
+      "total_em_dashes": 11,
+      "em_dash_per_1000": 1.48,
+      "total_md_features": 0,
+      "md_per_1000": 0.0,
+      "samples": [
+        {
+          "topic_index": 1,
+          "word_count": 829,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 2,
+          "word_count": 866,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 3,
+          "word_count": 871,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 4,
+          "word_count": 947,
+          "em_dashes": 5,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 5,
+          "word_count": 719,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 6,
+          "word_count": 787,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 7,
+          "word_count": 732,
+          "em_dashes": 0,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 8,
+          "word_count": 830,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 9,
+          "word_count": 862,
+          "em_dashes": 2,
+          "markdown_features": {
+            "headers": 0,
+            "bullets": 0,
+            "bold": 0,
+            "numbered": 0,
+            "total": 0
+          }
+        },
+        {
+          "topic_index": 10,
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ]
+    }
+  }
+]

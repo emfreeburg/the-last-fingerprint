@@ -1,0 +1,90 @@
+[
+  {
+    "model_name": "Claude Opus 4.6",
+    "model_id": "claude-opus-4-6",
+    "unconstrained": {
+      "total_words": 14258,
+      "total_em_dashes": 184,
+      "em_dash_per_1000": 12.91,
+      "total_md": 36
+    },
+    "markdown_suppressed": {
+      "total_words": 13730,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0.0,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "total_words": 14114,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0.0,
+      "total_md": 0
+    }
+  },
+  {
+    "model_name": "GPT-4.1",
+    "model_id": "gpt-4.1",
+    "unconstrained": {
+      "total_words": 7411,
+      "total_em_dashes": 104,
+      "em_dash_per_1000": 14.03,
+      "total_md": 142
+    },
+    "markdown_suppressed": {
+      "total_words": 7900,
+      "total_em_dashes": 67,
+      "em_dash_per_1000": 8.48,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "total_words": 9331,
+      "total_em_dashes": 65,
+      "em_dash_per_1000": 6.97,
+      "total_md": 0
+    }
+  },
+  {
+    "model_name": "GPT-5.4",
+    "model_id": "gpt-5.4",
+    "unconstrained": {
+      "total_words": 12820,
+      "total_em_dashes": 10,
+      "em_dash_per_1000": 0.78,
+      "total_md": 0
+    },
+    "markdown_suppressed": {
+      "total_words": 15350,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0.0,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "total_words": 15515,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0.0,
+      "total_md": 0
+    }
+  },
+  {
+    "model_name": "DeepSeek V3",
+    "model_id": "deepseek-chat",
+    "unconstrained": {
+      "total_words": 6470,
+      "total_em_dashes": 59,
+      "em_dash_per_1000": 9.12,
+      "total_md": 103
+    },
+    "markdown_suppressed": {
+      "total_words": 5543,
+      "total_em_dashes": 23,
+      "em_dash_per_1000": 4.15,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "total_words": 5630,
+      "total_em_dashes": 25,
+      "em_dash_per_1000": 4.44,
+      "total_md": 0
+    }
+  }
+]

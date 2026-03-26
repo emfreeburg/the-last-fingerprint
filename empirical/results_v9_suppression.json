@@ -1,0 +1,74 @@
+[
+  {
+    "model_name": "GPT-4.1",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 9818,
+      "total_em_dashes": 113,
+      "em_dash_per_1000": 11.51,
+      "total_md": 62
+    },
+    "markdown_suppressed": {
+      "condition": "markdown_suppressed",
+      "total_words": 10242,
+      "total_em_dashes": 84,
+      "em_dash_per_1000": 8.2,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "condition": "emdash_suppressed",
+      "total_words": 10614,
+      "total_em_dashes": 41,
+      "em_dash_per_1000": 3.86,
+      "total_md": 0
+    }
+  },
+  {
+    "model_name": "Claude Opus 4.6",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 10403,
+      "total_em_dashes": 88,
+      "em_dash_per_1000": 8.46,
+      "total_md": 10
+    },
+    "markdown_suppressed": {
+      "condition": "markdown_suppressed",
+      "total_words": 10744,
+      "total_em_dashes": 2,
+      "em_dash_per_1000": 0.19,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "condition": "emdash_suppressed",
+      "total_words": 10479,
+      "total_em_dashes": 0,
+      "em_dash_per_1000": 0.0,
+      "total_md": 0
+    }
+  },
+  {
+    "model_name": "DeepSeek V3",
+    "unconstrained": {
+      "condition": "unconstrained",
+      "total_words": 10158,
+      "total_em_dashes": 88,
+      "em_dash_per_1000": 8.66,
+      "total_md": 21
+    },
+    "markdown_suppressed": {
+      "condition": "markdown_suppressed",
+      "total_words": 10527,
+      "total_em_dashes": 50,
+      "em_dash_per_1000": 4.75,
+      "total_md": 0
+    },
+    "emdash_suppressed": {
+      "condition": "emdash_suppressed",
+      "total_words": 10184,
+      "total_em_dashes": 16,
+      "em_dash_per_1000": 1.57,
+      "total_md": 0
+    }
+  }
+]
